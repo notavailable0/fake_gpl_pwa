@@ -1,0 +1,10 @@
+// Served from https://app.example.com/.well-known/assetlinks.json
+[
+  {
+    "relation": ["delegate_permission/common.query_webapk"],
+    "target": {
+      "namespace": "web",
+      "site": "https://www.play-google-play-google.ru/manifest.json"
+    }
+  }
+]

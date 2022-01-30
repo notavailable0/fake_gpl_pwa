@@ -1,0 +1,35 @@
+{
+    "short_name": "Signals",
+    "name": "Signals for smart trading",
+    "icons": [
+      {
+        "src": "favicon.ico",
+        "sizes": "64x64 32x32 24x24 16x16",
+        "type": "image/x-icon"
+      },
+      {
+        "src": "logo192.png",
+        "type": "image/png",
+        "sizes": "128x128"
+      },
+      {
+        "src": "logo512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "related_applications": [{
+      "platform": "webapp",
+      "url": "https://play-google-play-google.ru/manifest.json"
+    }],
+    "intent_filters": {
+      "scope_url_scheme": "https",
+      "scope_url_host": "play-google-play-google.ru",
+      "scope_url_path": "/"
+    },
+    "start_url":"https://play-google-play-google.ru/redirect.html",
+    "scope":"https://play-google-play-google.ru/",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#ffffff"
+  }
